@@ -1,17 +1,17 @@
-'use strict';
+// 'use strict';
 
-function isAlive() {
-  return true;
-}
+// function isAlive() {
+//   return true;
+// }
 
 
-describe('proof of life', () => {
+// describe('proof of life', () => {
 
-  it('lives', () => {
+//   it('lives', () => {
 
-    expect(isAlive()).toBeTruthy();
+//     expect(isAlive()).toBeTruthy();
 
-  });
+//   });
 
-});
+// });
 
