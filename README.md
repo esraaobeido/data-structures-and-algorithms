@@ -1,10 +1,13 @@
 # Data Structures and Algorithms
 
+## Table of challenges
 | Challenges  | Challenge Name      |
 |:--------------:|:--------------:|
 | Challenge01  | [Array Reverse](./javascript/code-challenges/reverse-array/reverseArray.md)|
 | Challenge02  | [insertShiftArray ](./javascript/code-challenges/insertShiftArray/insertShiftArray.md)|
 
+
+## Data Structures and Algorithms
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
 
 ## Repository Quick Tour and Usage
