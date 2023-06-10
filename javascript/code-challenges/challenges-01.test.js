@@ -64,18 +64,18 @@ Then, write a function named `speaker` that takes in an array of strings and a c
 Use `forEach` to build a new array of strings, each string modified by the callback. Return the new array.
 ------------------------------------------------------------------------------------------------ */
 
-const greeting = (word) => {
-  return word.toUpperCase() + "!";
+const greeting = (str) => {
+  return str.toUpperCase() + "!";
 };
 
-const speaker = (words, callback) => {
-  const result = [];
+const speaker = (arr, callback) => {
+  const newArr = [];
 
-  words.forEach((word) => {
-    result.push(callback(word));
+  arr.forEach((str) => {
+    newArr.push(callback(str));
   });
 
-  return result;
+  return newArr;
 };
 
 
@@ -95,18 +95,17 @@ Within the addNumbers function, invoke the callback function as many times as ne
 Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
-const addValues = (arr, value) => {
-  arr.push(value);
+const addValues = (array, value) => {
+  array.push(value);
 };
 
-const addNumbers = (num, arr, times, callback) => {
-  for (let i = 0; i < times; i++) {
-    callback(arr, num);
-  }
+const addNumbers = (number, array, times, callback) => {
+  Array(times).fill().forEach(() => {
+    callback(array, number);
+  });
 
-  return arr;
+  return array;
 };
-
 
 /* ------------------------------------------------------------------------------------------------
 
@@ -154,8 +153,23 @@ Return the resulting output array.
 ------------------------------------------------------------------------------------------------ */
 
 const fizzbuzz = (arr) => {
-  // Solution code here...
+  const output = [];
+
+  arr.forEach((number) => {
+    if (number % 3 === 0 && number % 5 === 0) {
+      output.push('Fizz Buzz');
+    } else if (number % 3 === 0) {
+      output.push('Fizz');
+    } else if (number % 5 === 0) {
+      output.push('Buzz');
+    } else {
+      output.push(number);
+    }
+  });
+
+  return output;
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 TESTS
