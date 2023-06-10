@@ -5,6 +5,7 @@
 |:--------------:|:--------------:|
 | Challenge01  | [Array Reverse](./javascript/code-challenges/reverse-array/reverseArray.md)|
 | Challenge02  | [insertShiftArray ](./javascript/code-challenges/insertShiftArray/insertShiftArray.md)|
+| Challenge03  | [Singly Linked Lists](./javascript/code-challenges/linked-list/linked-list.md)|
 
 
 ## Data Structures and Algorithms
