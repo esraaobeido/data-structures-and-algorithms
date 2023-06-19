@@ -1,5 +1,4 @@
 'use strict';
-
 const reversedArray = require('../reverse-array/reverseArray');
 describe('Testing challenge 1', () => {
     test('It should return a new array of reversed array', () => {

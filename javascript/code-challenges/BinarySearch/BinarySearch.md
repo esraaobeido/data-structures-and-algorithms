@@ -29,3 +29,5 @@ function binarySearch(arr, searchKey) {
     return -1;
   }
 ```
+## Test 
+![](./binarysearch-test.png)
