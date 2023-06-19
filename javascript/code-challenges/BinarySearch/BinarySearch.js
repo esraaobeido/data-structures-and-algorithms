@@ -13,4 +13,4 @@ function binarySearch(arr, searchKey) {
     }
     return -1;
   }
-  
+  module.exports = binarySearch;
