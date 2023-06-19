@@ -2,7 +2,7 @@
 ## Summary:
 In this code challenge provides methods to append a new node at the end of the Linked list, insert a new node before a specific value, and insert a new node after a specific value.
 ## Whiteboard Process
-![](./images/whiteboard-ll-insertion.jpg)
+![](./images/wb-ll-insertion.jpg)
 ## Solution:
 - node.js
 ```
