@@ -4,11 +4,10 @@
 | Challenges  | Challenge Name      |
 |:--------------:|:--------------:|
 | Challenge01  | [Array Reverse](./javascript/code-challenges/reverse-array/reverseArray.md)|
-| Challenge02  | [insertShiftArray ](./javascript/code-challenges/insertShiftArray/insertShiftArray.md)|
+| Challenge02  | [Insert Shift Array ](./javascript/code-challenges/insertShiftArray/insertShiftArray.md)|
 | Challenge03  | [Singly Linked Lists](./javascript/code-challenges/linked-list/linked-list.md)|
 | Challenge04  | [Array Binary Search](./javascript/code-challenges/BinarySearch/BinarySearch.md)|
-
-
+| Challenge05  | [LinkedList Insertion](./javascript/code-challenges/likedList-Insertion/linkedList-Insertion.md)|
 
 ## Data Structures and Algorithms
 See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
