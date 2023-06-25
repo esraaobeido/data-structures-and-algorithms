@@ -5,7 +5,6 @@ class LinkedList {
   constructor() {
     this.head   = null;
     this.tail = null
-    this.length = 0;
   }
 
   insertFirstNode(value) {
@@ -39,7 +38,6 @@ toString() {
   }
   console.log(`${output}null`);
 }
-
   append(value) {
 
     if(!this.head) {
