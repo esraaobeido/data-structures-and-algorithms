@@ -1,7 +1,5 @@
 "use strict";
 
-const Node=require('./Node');
-
 class Node {
   constructor(value) {
     this.value = value;
