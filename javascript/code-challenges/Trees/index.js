@@ -2,6 +2,7 @@
 
 const BST =require("./BST")
 
+
 let BB =new BST();
 
  BB.Add(2);
