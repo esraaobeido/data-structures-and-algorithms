@@ -1,7 +1,6 @@
 'use strict';
 const Node = require('./Node');
 
-// Implement Binary Search Tree
 
 class BST {
   constructor(root = null) {
