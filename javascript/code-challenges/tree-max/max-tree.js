@@ -2,10 +2,10 @@
 const Node = require("./Node");
 
 class BinaryTree{
-    constructor(root=null){ // here i put the null value so that if the tree is empty it shall return null , without it it will give an error
+    constructor(root=null){ 
         this.root= root
     }
-    preOrder(){  // i didnt add any new Node cuz here i dont want to add , i just want to traverse throught the array
+    preOrder(){  
         if (this.root === null) {
             return null;
           }
