@@ -1,5 +1,3 @@
-## Whiteboard Process
-![]()
-
 ## Test 
-![]()
+![](./testGraph.png)
+
